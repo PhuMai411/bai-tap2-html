@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BẮT BUỘC: Thẻ title nằm trong head -->
+    <title>Sở Thích Xem Phim Của Tôi</title>
+</head>
+<body>
+
+    <!-- THẺ SEMANTIC 1 & 2: Thẻ main bao bọc nội dung chính và thẻ h1 -->
+    <main>
+        <h1>Danh Sách 3 Bộ Phim Yêu Thích Nhất</h1>
+        
+        <!-- THẺ SEMANTIC 3: Thẻ section (đạt yêu cầu tối thiểu 3 thẻ semantic) -->
+        <section>
+            <h2>Lý do tôi yêu thích điện ảnh</h2>
+            <p>Điện ảnh giúp tôi thư giãn và học hỏi được nhiều bài học ý nghĩa trong cuộc sống.</p>
+            
+            <!-- BẮT BUỘC: Danh sách có ít nhất 3 mục (li) -->
+            <h3>Thể loại phim tôi hay xem:</h3>
+            <ul>
+                <li>Phim khoa học viễn tưởng (Sci-Fi)</li>
+                <li>Phim hoạt hình (Animation)</li>
+                <li>Phim tâm lý, trinh thám</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hình ảnh các bộ phim nổi tiếng</h2>
+            <p>Dưới đây là hình ảnh minh họa cho các bộ phim tôi yêu thích:</p>
+
+            <!-- BẮT BUỘC: Ít nhất 3 hình ảnh, có thuộc tính alt mô tả chi tiết (không để trống, không viết chung chung như alt="photo") -->
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/vi/f/fb/Film_My_Love_2021.jpg" alt="Hôn Lễ Của Em">
+                <img src="https://bazaarvietnam.vn/wp-content/uploads/2022/03/harper-bazaar-phim-ba-dong-the-medium-co-that-hay-khong-7.jpeg" alt="The Medium">
+                <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2024/01/nhung-bo-phim-cua-tran-thanh-1.jpg"Mai">
+            </div>
+        </section>
+
+        <section>
+            <h2>Tìm hiểu thêm thông tin</h2>
+            <!-- BẮT BUỘC: Ít nhất 1 đường liên kết dẫn ra trang web bên ngoài -->
+            <p>Bạn có thể tham khảo bảng xếp hạng các bộ phim hay nhất mọi thời đại tại 
+               <a href="https://imdb.com" target="_blank">Trang thông tin điện ảnh IMDb</a>.
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>
